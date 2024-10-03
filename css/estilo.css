@@ -10,12 +10,12 @@ body {
 }
 
 header, main, footer {
-    min-width: 320px;
-    max-width: 480px;
+    width: 320px;
     margin: auto;
     padding: 5px 0;
     text-align: center;
     color: white;
+    overflow: hidden;
 }
 
 
@@ -30,9 +30,16 @@ header, main, footer {
 
 .celula {
     border: 1px solid black;
+    font-size: 80px;
+    color: black;
+    text-align: center;
 }
 
-#restart {
+.celula:active {
+    background-color: lightgray;
+}
+
+#reiniciar {
     border: 1px solid lightblue;
     border-radius: 5px;
     background-color: dodgerblue;
@@ -42,7 +49,7 @@ header, main, footer {
     width: 160px;
 }
 
-#restart:active {
+#reiniciar:active {
     border: 1px solid blue;
     background-color: navy;
 }
