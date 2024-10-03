@@ -24,7 +24,7 @@ header, main, footer {
     margin: 10px auto;
     background-color: white;
     display: grid;
-    grid-template-columns: repeat(3, 106px);
+    grid-template-columns: repeat(3, 106.5px);
     grid-template-rows: repeat(3, 106px);
 }
 
