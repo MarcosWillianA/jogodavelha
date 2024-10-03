@@ -35,6 +35,11 @@ header, main, footer {
     text-align: center;
 }
 
+.vencedor {
+    background-color: dimgray;
+    color: red;
+}
+
 .celula:active {
     background-color: lightgray;
 }
